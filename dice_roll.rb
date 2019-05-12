@@ -4,12 +4,9 @@
 
 def roll
 
-   #random number using array
+   #random number 
   ary = [1,2,3,4,5,6]
   ary[rand(ary.length)]
 end
 
 
- # Feel free to google "how to generate a random number in ruby"	 
- #random number using range
-  rand(1..6)
